@@ -6,6 +6,11 @@
 		return $_POST[$parametro];
 	}
 
+	// Função que abre um arquivo e o transforma em um array.
+	function openFile($caminho){
+		return file($caminho);
+	}
+
 	// essa função faz o implode do array que é passado como parametro, dividindo seus elementos com '||'.
 	function juntar($array){
 		// pega os elementos do array e separa usando o separador '§§§', com a função join
