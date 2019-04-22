@@ -29,8 +29,8 @@ include 'php_action/init.php';
 		foreach($status as $post): $arrayStatus = explode('||', $post);?>
 			<tr>
 
-				 <td><?= $arrayStatus[0] ?></td>
-				 <td><?= $arrayStatus[1] ?></td>
+				<td><a href="pageUser.php?pageuser=<?= $arrayStatus[0] ?>"><?= $arrayStatus[0] ?></a></td>
+				<td><?= $arrayStatus[1] ?></td>
 
 			</tr>
 		<?php endforeach; ?>
