@@ -50,4 +50,5 @@
     	return $_SESSION['logado'] ?? false;
 	}
 
+// alteração.
  ?>
